@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="p.css" />
+    <title>PORTFOLIO</title>
+  </head>
+
+  <body>
+    <main>
+      <aside>
+        <ul class="links">
+          <li onclick="Navigate(0)" class="activatelink">
+            <i class="fa-solid fa-house"></i>
+            <p>HOME</p>
+          </li>
+          <li onclick="Navigate(1)">
+            <i class="fa-solid fa-user"></i>
+            <p>ABOUT ME</p>
+          </li>
+          <li onclick="Navigate(2)">
+            <i class="fa-solid fa-images"></i>
+            <p>GALLERY</p>
+          </li>
+          <li onclick="Navigate(3)">
+            <i class="fa-solid fa-comments"></i>
+            <p>CONTACT ME</p>
+          </li>
+          <li onclick="Navigate(4)">
+            <i class="fa-solid fa-info"></i>
+            <p>ADDITIONAL INFO</p>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="mySwiper swiper">
+        <div class="swiper-wrapper">
+          <!-- Home Slide -->
+          <div class="swiper-slide home-slide">
+            <div class="HOME">
+              <h1>HI! I AM <span class="stylized-name">SADIQSHAIK</span></h1>
+              <h2>A <span class="profession">WEB DEVELOPER</span></h2>
+              <p class="heroline">
+                <b>I am a passionate web developer with a keen eye for detail and a love for creating beautiful, functional websites.</b><br>
+                From the very beginning of my journey in technology, I’ve been driven by a desire to build digital experiences that are not only visually appealing but also highly intuitive and user-friendly. I take pride in designing clean, responsive websites that deliver a smooth user experience across all devices.<br>
+
+                <b>My approach to web development combines creativity with technical precision.</b><br>
+                I pay close attention to every element—layout, typography, color schemes, and user interaction—ensuring that each project I work on meets high standards of design and usability. I enjoy translating ideas into code and turning concepts into fully functioning digital products.<br>
+
+                <b>I believe in the power of technology to transform ideas into reality.</b><br>
+                For me, web development is more than just writing code—it’s about solving problems, improving lives, and making information accessible. Every project is an opportunity to innovate, learn something new, and make a lasting impact through technology.<br>
+
+                <b>I’m excited to bring your vision to life.</b><br>
+                Whether you’re a startup with a fresh idea or an established business looking to elevate your online presence, I’m here to help bring your goals to fruition. With a blend of enthusiasm, dedication, and a results-driven mindset, I’m committed to building websites that not only look great but also perform exceptionally well.
+              </p>
+              <div class="buttonGroup">
+                <button onclick="Navigate(3)">HIRE ME</button>
+                <button onclick="Navigate(3)">CONTACT ME</button>
+              </div>              
+            </div>
+            <div class="SlideImg">
+              <div class="top-right-corner">
+                <hr class="hr1" />
+                <hr class="hr2" />
+              </div>
+              <img src="./sadiq.jpg" alt="Profile Image"  width="200" height="700"/>
+              <div class="bottom-left-corner">
+                <hr class="hr1" />
+                <hr class="hr2" />
+              </div>
+            </div>
+            <p class="Slide-help">
+              Scroll for the next slide
+              <i class="fa-solid fa-chevron-right fa-shake"></i>
+            </p>
+          </div>
+
+          <!-- About Slide -->
+          <div class="swiper-slide about-slide">
+            <div class="about-us">
+              <h1 class="heading">ABOUT ME</h1>
+              <h3 class="sub-heading">I AM SADIQSHAIK <span class="profession">A Web Developer | Python Programmer | IoT Enthusiast</span></h3>
+              <p class="aboutme-details">
+
+I am Sadiq Shaik, a passionate and motivated web developer with a Bachelor of Technology (B-Tech) degree in Computer Science and Engineering (CSE). As a fresher with a strong academic foundation and a commitment to continuous learning, I aim to contribute meaningfully to the ever-evolving field of technology through creativity, innovation, and technical expertise.With a solid grounding in web technologies such as HTML, CSS, and JavaScript, I specialize in building dynamic, responsive, and user-centric websites. I am equally proficient in Python programming, where I’ve applied my skills to real-time projects that solve practical problems. My interests also extend into the realm of IoT (Internet of Things), where I’ve gained hands-on experience working with connected devices, showcasing my adaptability and curiosity in emerging technologies.In addition to my technical skills, I am well-versed in MS Office tools, which I regularly use for documentation, data analysis, and project reporting. My background combines technical competence with strong communication and organizational skills, enabling me to thrive both in collaborative team environments and independent projects.Driven by a deep desire to solve real-world challenges, I believe in using technology to improve everyday life and bring about meaningful change. I continuously seek opportunities to learn, grow, and refine my craft by staying up to date with industry trends, frameworks, and best practices.I aspire to join a forward-thinking organization known for its innovation and excellence, where I can contribute my skills, embrace new challenges, and build impactful digital solutions. I bring to the table not just technical ability, but also a mindset of perseverance, creativity, and a hunger for knowledge.
+              </p>
+
+              <div class="about-me-division">
+                <div class="about-me-table">
+                  <h1>DETAILS</h1>
+                  <li><span>Name: </span>Shaik.Sadiq</li>
+                  <li><span>Father Name: </span>Shaik Mohammed Yousuf</li>
+                  <li><span>Mother Name: </span>Shaik Tabasum</li>
+                  <li><span>Degree: </span>B-Tech</li>
+                  <li><span>Branch: </span>CSE</li>
+                  <li><span>Age: </span>21 yrs</li>
+                  <li><span>Gender: </span>Male</li>
+                  <li><span>Marrital Status: </span>Single</li>
+                  <li><span>Mobile No: </span>9703127159</li>
+                  <li><span>Experience: </span>Fresher</li>
+                  <li><span>State: </span>Andhrapradesh</li>
+                  <li><span>Country: </span>India</li>
+                  <li><span>Availability: </span>24/7</li>
+                </div>
+
+                <div class="skill-bar">
+                  <h1>SKILLS ACQUIRED</h1>
+                  <li>
+                    <p>HTML</p>
+                    <div class="bar"><div class="activate-bar" style="width: 80%;"></div></div>
+                  </li>
+                  <li>
+                    <p>CSS</p>
+                    <div class="bar"><div class="activate-bar" style="width: 70%;"></div></div>
+                  </li>
+                  <li>
+                    <p>JAVASCRIPT</p>
+                    <div class="bar"><div class="activate-bar" style="width: 30%;"></div></div>
+                  </li>
+                  <li>
+                    <p>PYTHON</p>
+                    <div class="bar"><div class="activate-bar" style="width: 50%;"></div></div>
+                  </li>
+                  <li>
+                    <p>FLASK</p>
+                    <div class="bar"><div class="activate-bar" style="width: 30%;"></div></div>
+                  </li>
+                  <li>
+                    <p>MONGODB</p>
+                    <div class="bar"><div class="activate-bar" style="width: 40%;"></div></div>
+                  </li>
+                  <li>
+                    <p>IOT</p>
+                    <div class="bar"><div class="activate-bar" style="width: 50%;"></div></div>
+                  </li>
+                  <li>
+                    <p>MS OFFICE</p>
+                    <div class="bar"><div class="activate-bar" style="width: 70%;"></div></div>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Slide -->
+          <div class="swiper-slide gallery-slide">
+            <div class="gallery">
+              <h1 class="heading">GALLERY</h1>
+              <h2>My Recent Project photos</h2>
+
+              <div class="project"><img src="IMG-20250408-WA0001.jpg" alt="Project " width="500" height="500"></div>
+              <div class="project"><img src="IMG-20250408-WA0002.jpg" alt="Project " width="500" height="500"></div>
+              <div class="project"><img src="IMG-20250408-WA0003.jpg" alt="Project " width="500" height="500"></div>
+              <div class="project"><img src="IMG-20250417-WA0006.jpg" alt="Project " width="500" height="500"></div>
+              <div class="project"><img src="IMG-20250417-WA0007.jpg" alt="Project " width="500" height="500"></div>
+            </div>
+          </div>
+
+          <!-- Contact Slide -->
+          <div class="swiper-slide contact-slide">
+            <div class="contactMe">
+              <h1>CONTACT ME</h1>
+
+              <div class="contactinfo">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Mobile No</h3>
+                <p>Mobile: <a href="tel:+919703127159">+91 9703127159</a></p>
+              </div>
+
+              <div class="contactinfo">
+                <i class="fa-regular fa-envelope"></i>
+                <h3>Email</h3>
+                <p>Email: <a href="mailto:shaiksadiq7525@gmail.com">shaiksadiq7525@gmail.com</a></p>
+              </div>
+
+              <div class="contactinfo">
+                <i class="fa-solid fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+                <p><a href="https://linkedin.com/in/sadiqshik-S25" target="_blank">Visit My LinkedIn</a></p>
+              </div>
+
+              <div class="contactinfo">
+                <i class="fa-solid fa-github"></i>
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/sadiqshaik05" target="_blank">Visit My GitHub</a></p>
+              </div>
+
+              <form action="">
+                <h2>Send me a message through</h2>
+                <div class="info-item">
+                  <h3>Social Media</h3>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <p>
+                    <a href="https://wa.me/919703127159" target="_blank">WhatsApp</a>
+                    <a href="https://www.instagram.com/mr_sadiqshaik_05/" target="_blank">Instagram</a>
+                  </p>
+                </div>
+
+                <input type="text" placeholder="Name" required />
+                <input type="email" placeholder="Email" required />
+                <textarea rows="5" placeholder="Type your message here..." required></textarea>
+                <button class="primary">Send</button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Additional Information Slide -->
+          <div class="swiper-slide additional-info-slide">
+            <div class="additional-info">
+              <h1>Additional Information</h1>
+
+              <!-- Internship Certificate Link -->
+              <div class="info-item">
+                <h3>Internship Certificate</h3>
+                <p>
+                  <a href="./212N1A0575.pdf" target="_blank">Fullstack Python Developmemt Certificate</a><br>
+                  <a href="./1723457555738_212N1A0575.pdf" target="_blank">IOT Certificate</a><br>
+                  <a href="./Gen AI Event.pdf" target="_blank">Gen AI Participation Certificate</a><br>
+                  <a href="./Naukri.com.pdf" target="_blank">Naukri.com Young Turk Participation Certificate</a><br>
+                  <a href="./Cloud Computing.pdf" target="_blank">Cloud computing Course Certificate</a>
+                </p>
+              </div>
+
+              <!-- Course Certificates -->
+              <div class="info-item">
+                <h3>MARKS SHEETS</h3>
+                <p>
+                  <a href="./Semister 1 result.jpg" target="_blank">Semister 1</a><br>
+                  <a href="./Semister 2 result.jpg" target="_blank">Semister 2</a><br>
+                  <a href="./Semister 3 Result.jpg" target="_blank">Semister 3</a><br>
+                  <a href="./Semister 4 result.jpg" target="_blank">Semister 4</a><br>
+                  <a href="./Semister 5 result.jpg" target="_blank">Semister 5</a><br>
+                  <a href="./Semsiter 6 result.jpg" target="_blank">Semister 6</a><br>
+                  <a href="./Semister 7 result.jpg" target="_blank">Semister 7</a>
+                </p>
+              </div>
+
+              <!-- Project PPT and Documentation -->
+              <div class="info-item">
+                <h3>Project 1 PPT & Documentation</h3>
+                <h4>AI-Powered Elderly Care and Emergency Alert System Using IOT Integration Project</h4>
+                <p>
+                  <a href="./Final PPT (2).pptx" target="_blank">Project 1 PPT</a><br>
+                  <a href="./babes got byte.pdf" target="_blank">Project 1 Documentation</a>
+                </p><br>
+                <h3>Project 2 PPT & Documentation</h3>
+                <h4>Innovative Contactless Doorbell Using IOT Integration Project</h4>
+                <p>
+                  <a href="./FINAL PPT.pptx" target="_blank">Project 2 PPT</a>
+                </p>
+              </div>
+
+              <!-- Demonstration Video -->
+              <div class="info-item">
+                <h3> Final year Project Demonstration Video</h3>
+                <p>
+                  <a href="./final project video.mp4" target="_blank">Watch Demonstration Video</a>
+                </p>
+              </div>
+              <div class="info-item">
+                <h3> Resume</h3>
+                <p>
+                  <a href="./ss resume.pdf" target="_blank">SADIQ RESUME</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        loop: false,
+        mousewheel: true,
+        slidesPerView: 1,
+      });
+
+      function Navigate(index) {
+        swiper.slideTo(index);
+        document.querySelectorAll('.links li').forEach((el) => el.classList.remove('activatelink'));
+        document.querySelectorAll('.links li')[index].classList.add('activatelink');
+      }
+    </script>
+  </body>
+</html>
